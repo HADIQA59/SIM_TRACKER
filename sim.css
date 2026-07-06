@@ -43,3 +43,18 @@ nav ul li a:hover{
     background:white;
     color:#2fa093;
 }
+.search-box button{
+    background: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.search-box i{
+    font-size: 22px;
+    color: #f3f5f6;
+    transition: 0.3s;
+}
+
+.search-box i:hover{
+    color: #47e69c;
+}

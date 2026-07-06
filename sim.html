@@ -3,27 +3,35 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Background Image</title>
+    <title>SIM Tracker</title>
 
-    <!-- Link CSS -->
     <link rel="stylesheet" href="sim.css">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
 </head>
 <body>
 
-    <header>
-         <div class="logo">
-            <p>SIM TRACKER</p>
-        
+<header>
+    <div class="logo">
+        <p>SIM TRACKER</p>
     </div>
-       <nav>
-           <ul>
-               <li><a href="#">Home</a></li>
-               <li><a href="#">About</a></li>
-               <li><a href="#">Contact</a></li>
-           </ul>
 
-       </nav>
-    </header>
+    <nav>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
 
+    <div class="search-box">
+        <button onclick="searchItem()">
+            <i class="fa-solid fa-magnifying-glass"></i>
+        </button>
+    </div>
+</header>
+
+<script src="sim.js"></script>
 </body>
 </html>
