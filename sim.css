@@ -1,5 +1,5 @@
 body{
-    background-image: url("https://img.magnific.com/free-vector/social-technology-network-background_1284-3504.jpg?semt=ais_hybrid&w=740&q=80");
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQFJvzd2DZ29AR0WBCzcSHHcKiE3RVCl_bVcCJlCihCqw&s=10");
     background-size:contain;
     /* background-position: center; */
     background-repeat: no-repeat;
@@ -1514,7 +1514,7 @@ margin:auto;
 .about-header{
     width: 100%;
     padding: 120px 20px 80px;
-    background:#25D366;
+    background:#0b360e;
     text-align: center;
     color: #ffffff;
 }
@@ -1917,9 +1917,7 @@ margin:auto;
     font-family:'Poppins',sans-serif;
 }
 
-body{
-    background:#f8f9fc;
-}
+
 
 .blog-section{
     width:90%;
@@ -2031,7 +2029,7 @@ body{
 }
 
 .read-btn:hover{
-    background:#0e9b6d;
+    background:#0b360e;
 }
 
 /* Responsive */
@@ -2104,5 +2102,92 @@ body{
     .read-btn{
         width:100%;
         text-align:center;
+    }
+}
+body {
+    animation: fadeIn 0.8s ease-in-out;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* About Section */
+.about {
+    width: 100%;
+    background: #f8f9fa;
+    padding: 80px 10%;
+}
+
+.about-details {
+    max-width: 1000px;
+    margin: auto;
+}
+
+.about-details h1 {
+    font-size: 2rem;
+    color: #070808;
+    margin-bottom: 15px;
+    position: relative;
+    padding-left: 15px;
+}
+
+.about-details h1::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 5px;
+    width: 5px;
+    height: 35px;
+    background: #070707;
+    border-radius: 5px;
+}
+
+.about-details p {
+    font-size: 17px;
+    color: #555;
+    line-height: 1.8;
+    margin-bottom: 40px;
+    text-align: justify;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    .about {
+        padding: 60px 25px;
+    }
+
+    .about-details h1 {
+        font-size: 1.7rem;
+    }
+
+    .about-details p {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 480px) {
+    .about {
+        padding: 40px 15px;
+    }
+
+    .about-details h1 {
+        font-size: 1.5rem;
+    }
+
+    .about-details p {
+        font-size: 15px;
+        line-height: 1.7;
     }
 }
